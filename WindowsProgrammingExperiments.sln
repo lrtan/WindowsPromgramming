@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exp2EnumDemo", "EnumDemo\Exp2EnumDemo.csproj", "{87AFD407-676E-4EA1-B57D-4C8B240E662B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exp2ArrayDemo", "Exp2ArrayDemo\Exp2ArrayDemo.csproj", "{B18C522C-8019-4EC6-8B28-9DACAEDD9571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exp2MultiplicationTable", "Exp2MultiplicationTable\Exp2MultiplicationTable.csproj", "{8C08B415-FBF2-4BDF-A83D-46C27BB97586}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87AFD407-676E-4EA1-B57D-4C8B240E662B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87AFD407-676E-4EA1-B57D-4C8B240E662B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87AFD407-676E-4EA1-B57D-4C8B240E662B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87AFD407-676E-4EA1-B57D-4C8B240E662B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B18C522C-8019-4EC6-8B28-9DACAEDD9571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18C522C-8019-4EC6-8B28-9DACAEDD9571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18C522C-8019-4EC6-8B28-9DACAEDD9571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18C522C-8019-4EC6-8B28-9DACAEDD9571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C08B415-FBF2-4BDF-A83D-46C27BB97586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C08B415-FBF2-4BDF-A83D-46C27BB97586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C08B415-FBF2-4BDF-A83D-46C27BB97586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C08B415-FBF2-4BDF-A83D-46C27BB97586}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
