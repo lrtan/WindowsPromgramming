@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exp2ArrayDemo", "Exp2ArrayD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exp2MultiplicationTable", "Exp2MultiplicationTable\Exp2MultiplicationTable.csproj", "{8C08B415-FBF2-4BDF-A83D-46C27BB97586}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exp2", "Exp2", "{BDD4A82C-9BC7-4ED7-BAE2-B1D0C6DD5A6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87AFD407-676E-4EA1-B57D-4C8B240E662B} = {BDD4A82C-9BC7-4ED7-BAE2-B1D0C6DD5A6A}
+		{B18C522C-8019-4EC6-8B28-9DACAEDD9571} = {BDD4A82C-9BC7-4ED7-BAE2-B1D0C6DD5A6A}
+		{8C08B415-FBF2-4BDF-A83D-46C27BB97586} = {BDD4A82C-9BC7-4ED7-BAE2-B1D0C6DD5A6A}
 	EndGlobalSection
 EndGlobal
