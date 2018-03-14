@@ -7,8 +7,8 @@
     <ProjectGuid>{87AFD407-676E-4EA1-B57D-4C8B240E662B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EnumDemo</RootNamespace>
-    <AssemblyName>EnumDemo</AssemblyName>
+    <RootNamespace>Exp2EnumDemo</RootNamespace>
+    <AssemblyName>Exp2EnumDemo</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
