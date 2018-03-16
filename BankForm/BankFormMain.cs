@@ -7,32 +7,39 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using BankSystem;
 namespace BankForm
 {
-    public partial class Form1 : Form
+    public partial class BankFormMain : Form
     {
-        public Form1()
+        /// <summary>
+        /// 一个银行
+        /// </summary>
+        public Bank bank;
+        public BankFormMain()
         {
             InitializeComponent();
+            bank = new Bank("中国人民银行");
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Bank b = new Bank();
+            BankFormSub b = new BankFormSub();
+            b.bank = this.bank;
             b.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            User u=new User();
+            UserLogin u =new UserLogin();
+            u.bank = this.bank;
             u.Show();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             //创建 一个银行
-
+            this.label1.Text = bank.Name;
         }
     }
 }

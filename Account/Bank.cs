@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bank
+namespace BankSystem
 {
 
     /// <summary>
@@ -22,6 +22,10 @@ namespace Bank
         public string Id { set; get; }
         public string Password { set; get; }
         public string Name { set; get; }
+        public decimal Money
+        {
+            get { return this.money; }
+        }
         private decimal money;
   
         public Account(string id,string password,decimal money=0m)
@@ -33,13 +37,13 @@ namespace Bank
         public bool SaveMoney(decimal money)
         {
             if (money < 0) return false;
-            this.money = money;
+            this.money = this.money + money;
             return true;
         }
         public bool DrawMoney(decimal money)
         {
             if(money<0 || money > this.money) return false;
-            this.money -= money;
+            this.money =this.money- money;
             return true;
         }
     }
@@ -47,7 +51,7 @@ namespace Bank
     /// <summary>
     /// 银行类用于保存账户和开户
     /// </summary>
-    class Bank
+   public class Bank
     {
         /// <summary>
         /// 银行名
@@ -66,7 +70,7 @@ namespace Bank
             Accounts.Add(a);
             return true;
         }
-        public object CloseAccount(string id,string password)
+        public bool CloseAccount(string id,string password)
         {
             Account account;
             account = FindAccount(id, password);
@@ -77,7 +81,7 @@ namespace Bank
             }
             else
             {
-                return "未找到用户";
+                return false;
             }
         }
         public Account FindAccount(string id,string password)
