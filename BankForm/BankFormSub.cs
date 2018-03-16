@@ -26,7 +26,11 @@ namespace BankForm
             string id = this.textBox1.Text;
             string password = this.textBox2.Text;
             string name = this.textBox3.Text;
-            decimal money = Convert.ToDecimal(this.textBox4.Text);
+            decimal money=0m;
+            if (this.textBox4.Text != "") {
+                money = Convert.ToDecimal(this.textBox4.Text);
+            }
+           
 
            if( bank.OpenAccount(id, password, money, name))
             {
